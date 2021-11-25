@@ -8,7 +8,8 @@ namespace PayrollService_ADO.Net
         {
             Console.WriteLine("Hello World!");
             EmployeeRepository employeeRepository = new EmployeeRepository();
-            employeeRepository.GetAllEmployeeDetails();
+            //employeeRepository.GetAllEmployeeDetails();
+            employeeRepository.UpdateSalaryQuery();
         }
     }
 }
